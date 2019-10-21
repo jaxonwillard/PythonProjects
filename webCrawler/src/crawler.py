@@ -7,6 +7,7 @@ def crawl(url, depth, maxDepth, visited):
     for t in range(depth - 1):
         depthTab += depthTab
 
+
     print(depthTab + url)
     if url in visited:
         return
